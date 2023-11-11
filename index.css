@@ -1,5 +1,5 @@
 body {
-  background-image: url("image/sunshine.jpeg");
+  background-image: url("image/fial.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -40,11 +40,9 @@ button {
 }
 
 .objet {
-  width: 20px;
-  height: 20px;
-  background: black;
+  width: 50px;
   position: absolute;
-  top: 222px;
+  top: 150px;
   margin-top: 150px;
 }
 
@@ -71,10 +69,10 @@ button {
 
 @keyframes anim {
   from {
-    top: 222px;
+    top: 150px;
   }
   to {
-    top: 100px;
+    top: 80px;
   }
 }
 @keyframes anim2 {
