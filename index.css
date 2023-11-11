@@ -1,0 +1,98 @@
+body {
+  background-image: url("image/sunshine.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+}
+
+main {
+  margin-top: 270px;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.515);
+  display: flex;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  color: rgb(117, 202, 215);
+}
+
+button {
+  background-color: black;
+  padding: 10px;
+  width: 100px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+  transition: 1s;
+}
+
+.btn_border {
+  border: 1px solid white;
+}
+
+.button-div {
+  text-align: center;
+}
+
+.objet {
+  width: 20px;
+  height: 20px;
+  background: black;
+  position: absolute;
+  top: 222px;
+  margin-top: 150px;
+}
+
+.objectanimation {
+  animation-delay: 0s;
+  animation-duration: 1.5s;
+  animation-direction: normal;
+  animation-name: anim;
+}
+
+.boule {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: relative;
+  left: 700px;
+  margin-top: 100px;
+  background-color: rgb(87, 4, 4);
+  animation-delay: 0s;
+  animation: mymove 5s infinite;
+  animation-direction: normal;
+  animation-name: anim2;
+}
+
+@keyframes anim {
+  from {
+    top: 222px;
+  }
+  to {
+    top: 100px;
+  }
+}
+@keyframes anim2 {
+  from {
+    left: 90%;
+  }
+  to {
+    left: -40px;
+  }
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 3;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}/*# sourceMappingURL=index.css.map */
