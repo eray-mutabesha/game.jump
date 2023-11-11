@@ -32,4 +32,4 @@ function checkCollision() {
     alert("faild")
   }
 }
-setInterval(checkCollision,100);
+// setInterval(checkCollision,100);
