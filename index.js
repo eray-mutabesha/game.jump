@@ -30,6 +30,7 @@ function checkCollision() {
   ) {
     // Les éléments se touchent, effectuez les actions nécessaires
     alert("faild")
+    document.location.reload(false);
   }
 }
-// setInterval(checkCollision,100);
+setInterval(checkCollision,100);
